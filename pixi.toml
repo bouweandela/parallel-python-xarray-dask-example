@@ -1,0 +1,22 @@
+[workspace]
+authors = ["Bouwe Andela <b.andela@esciencecenter.nl>"]
+channels = ["conda-forge"]
+name = "parallel-python-xarray-dask-example"
+platforms = ["linux-64", "osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+cartopy = "*"
+dask = "*"
+distributed = "*"
+gcsfs = "*"
+jupyterlab = "*"
+matplotlib = "*"
+netcdf4 = "*"
+pooch = "*"
+py-spy = "*"
+samply = "*"
+xarray = "*"
+zarr = "*"
